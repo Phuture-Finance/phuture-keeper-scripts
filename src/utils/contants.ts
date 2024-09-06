@@ -3,17 +3,14 @@
 // Ethereum Mainnet
 export const CHAIN_ID = 1;
 
-// Size of our batch of bundles
-export const BURST_SIZE = 3;
-
-// Blocks into the future to send our first batch of bundles
-export const FUTURE_BLOCKS = 1;
-
-// Priority fee to use
+// Priority fee to use in gwei
 export const PRIORITY_FEE = 2;
 
-// Flashbots Relayer URL
-export const FLASHBOTS_RPC = 'https://relay.flashbots.net';
+// Gas limit for our transactions
+export const GAS_LIMIT = 3_000_000;
+
+// Flashbots Relayer URLs
+export const FLASHBOTS_RPC = ['https://rpc.titanbuilder.xyz/', 'https://rpc.beaverbuild.org/'];
 
 /// JOBS CONSTANTS ///
 

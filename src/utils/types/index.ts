@@ -5,5 +5,4 @@ export * from './ordering';
 export type InitialSetup = {
   provider: providers.WebSocketProvider;
   txSigner: Wallet;
-  bundleSigner: Wallet;
 };
